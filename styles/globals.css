@@ -1,25 +1,35 @@
-.trigger {
-  padding: 0 24px;
-  font-size: 18px;
-  line-height: 64px;
-  cursor: pointer;
-  transition: color 0.3s;
+:root {
+  --primary: #de4c4f;
+  --secondary: #5c629e;
+
+  --black: #000000;
+  --black95: #050505;
+  --black80: #999999;
+  --black60: #cccccc;
+  --black40: #e5e5e5;
+  --black20: #f0f0f0;
+  --black10: #f7f7f7;
+
+  --text01: #4c4c4c;
+  --textReverse: #fff;
+
+  --white: #fff;
+
+  --error: #e71d32;
+  --success: #5aa700;
+  --warning: #efc100;
+  --information: #5aaafa;
+
+  --nav01: #fff;
+  --nav02: #575a5d;
+  --nav03: #323232;
 }
 
-.trigger:hover {
-  color: #1890ff;
-}
-
-.logo {
-  height: 32px;
-  margin: 16px;
-  background: rgba(255, 255, 255, 0.3);
-}
-
-.site-layout .site-layout-background {
-  background: #fff;
-}
 
 .layout {
   height: 100vh;
+}
+
+body {
+  margin: 0;
 }
